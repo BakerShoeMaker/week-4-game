@@ -1,9 +1,30 @@
-console.log("hello world!");
-alert("hello!");
-
-//
 //1- Establish variables
+var wins = 0;
+var losses = 0;
+var gameNumber ="";
+var imageClickArray = [];
+
 //2 - First scene: user sees button that says click to star game.
+//loadPage
+function loadPage(){
+
+    wins = 0;
+    losses = 0;
+    gameNumber = "";
+    imageClickArray = [];
+    console.log("The LOAD PAGE FUNCTION IS WORKING!");
+}
+
+$(document).ready(function () {
+    console.log("The document is ready!");
+    loadPage();
+    
+});
+
+
+//document.getElementById("StartArea").innerHTML = "<button type="button class="btn btn-primary">Click to Start
+// </button>"
+
 //3 - User clicks and the game starts
 //4 - The following things happen:
         //a- The gameNumber is generated.

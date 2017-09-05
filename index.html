@@ -21,8 +21,8 @@
             <!-- wins/loses-->
             <div class = "row"> 
                 <div class="col-3"> </div>               
-                <div class="col-6 gameText">
-                    <button type="button" class="btn btn-primary">Click to Start </button>
+                <div id="StartArea" class="col-6 gameText">
+
                 </div>               
                <div class="col-3"> </div>               
              </div>
@@ -30,13 +30,13 @@
             <!-- message -->
             <div class = "row"> 
                 <div class = "col-2"></div>
-                <div class = "col-8 gameText p-4"> Message goes here </div>
+                <div id = "MessageArea" class = "col-8 gameText p-4"> Message goes here </div>
                 <div class = "col-2 gameText">  </div>
             </div>
             
             <!-- NUMBER -->
             <div class = "row ">  
-                <div class="col numberText align-middle">25 </div>
+                <div id = "NumberArea" class="col numberText">25 </div>
                 <!--https://v4-alpha.getbootstrap.com/layout/grid/-->
                 <!--https://v4-alpha.getbootstrap.com/utilities/vertical-align/-->
             </div>
@@ -44,7 +44,7 @@
             <!-- Your score is -->
             <div class = "row"> 
                 <div class="col-3" > </div>
-                <div class="col-6 gameText"> Your score is:</div>
+                <div id="YourScoreIs" class="col-6 gameText"> Your score is:</div>
                 <div class="col-3" > </div>
             </div>
             
@@ -61,7 +61,10 @@
                 <div class="col-2"> </div>
             </div>
     
-        </div>
+        </div><script
+                src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
         <script src="assets/javascript/game.js"></script>
    </body>
 
