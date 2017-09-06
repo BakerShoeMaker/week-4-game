@@ -34,7 +34,7 @@ body{
 
 .numberText{
 
-    font-family: 'Anton', sans-serif;;
+    font-family: 'Anton', sans-serif;
     font-size: 100px;
     color: white;
 }
@@ -46,6 +46,20 @@ body{
     padding-left: 10px;
 }
 
+.buttonProperties{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    border-radius: 8px;
+    width: 175px;
+
+}
 
 
 
