@@ -1,26 +1,55 @@
 //1- Establish variables
+var keyPressed;
 var wins = 0;
 var losses = 0;
 var gameNumber ="";
+var gameScore = 0;
 var imageClickArray = [];
+var message = "";
 
 //2 - First scene: user sees button that says click to star game.
 //loadPage
 function loadPage(){
 
-    wins = 0;
-    losses = 0;
-    gameNumber = "";
-    imageClickArray = [];
-    console.log("The LOAD PAGE FUNCTION IS WORKING!");
+    //message = "<button type='button' class='btn btn-success' id="StartButton">Click to Start Game</button>";
+    message = "Press any key to start!";
+    $("#MessageArea").html(message);
+    $("#numberarea").html("");
+    $("#YourScoreIs").html("");
+    $(document).keypress( function () {
+        console.log("You pressed the key!");
+        startGame();
+    })
 }
 
-$(document).ready(function () {
-    console.log("The document is ready!");
-    loadPage();
-    
-});
+//Waits for the user to press the key.
+function onKeyPress(event) {
+    keyPressed = event.key;
+    document.onkeyup = function(){
+        console.log("You pressed the :" +keyPressed +" key.");
+    }
+}
 
+
+//Start the game
+function startGame(){
+    console.log("The game has started!");
+    gameNumber = "";
+    imageClickArray = [];
+    $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
+    $("#MessageArea").html("");
+    $("#NumberArea").html("RN");
+    $("#YourScoreIs").html("Your score is: " +gameScore);
+    //Generate the game number once.
+    //Add event listener for each image.
+    //Generate the worth of each image.
+}
+
+
+
+$(document).ready(function () {
+    loadPage();
+});
 
 //document.getElementById("StartArea").innerHTML = "<button type="button class="btn btn-primary">Click to Start
 // </button>"

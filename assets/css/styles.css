@@ -17,7 +17,21 @@ body{
 .gameText{
     font-family: 'Anton', sans-serif;
     color: white;
+    font-size: 35px;
 }
+
+.winLossesText{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.messageText{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
 .numberText{
 
     font-family: 'Anton', sans-serif;;
