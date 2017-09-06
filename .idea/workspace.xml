@@ -2,185 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2934f3c7-4627-44ce-ba0c-aff3b9a261d2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jelliesSprite-0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jelliesSprite-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0013.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0018.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0019.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0020.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0021.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0022.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0023.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0025.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0026.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0027.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0028.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0029.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0030.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0031.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0032.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0033.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0034.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0035.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0036.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0037.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0038.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0039.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0040.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0041.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0042.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0043.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0044.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0045.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0046.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0047.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0048.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0049.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0050.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0051.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0052.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0053.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0055.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0056.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0057.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0058.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0059.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0060.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyBlue0061.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0013.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0018.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0019.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0020.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0021.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0022.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0023.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0025.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0026.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0027.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0028.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0029.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0030.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0031.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0032.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0033.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0034.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0035.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyGreen0036.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0013.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0018.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0019.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0020.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0021.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0022.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0023.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0025.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0026.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0027.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0028.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0029.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0030.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0031.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0032.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0033.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0034.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0035.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0036.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0037.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0038.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0039.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0040.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0041.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0042.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0043.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0044.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0045.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0046.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0047.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0048.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0049.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0050.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0051.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0052.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0053.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyRed0054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0013.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0018.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0019.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_Jellies/jellyYellow0020.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/jelliesSprite-0.png" afterPath="$PROJECT_DIR$/assets/css/jelliesSprite-0.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/jelliesSprite-0.css" afterPath="$PROJECT_DIR$/assets/css/jelliesSprite-0.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascript/game.js" afterPath="$PROJECT_DIR$/assets/javascript/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,21 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="36" />
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+            <state relative-caret-position="115">
+              <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -920,12 +743,12 @@
       <workItem from="1504629088021" duration="2842000" />
       <workItem from="1504645156583" duration="1678000" />
       <workItem from="1504657201207" duration="11369000" />
-      <workItem from="1504710503224" duration="11635000" />
+      <workItem from="1504710503224" duration="16135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35326000" />
+    <option name="totallyTimeSpent" value="39826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1194" height="738" extended-state="0" />
@@ -936,12 +759,12 @@
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18548387" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24032257" sideWeight="0.5277778" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32664436" sideWeight="0.48720682" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24032257" sideWeight="0.47569445" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16935484" sideWeight="0.4722222" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23090278" sideWeight="0.68175936" order="0" side_tool="false" content_ui="combo" />
@@ -983,6 +806,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -1145,18 +972,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="115">
+          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+        <state relative-caret-position="120">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding />
         </state>
       </provider>

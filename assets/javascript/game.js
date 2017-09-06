@@ -3,7 +3,7 @@ var keyPressed;
 var wins = 0;
 var losses = 0;
 var gameNumberTextfield ="";
-var gameScore = 0;
+//var gameScore = 0;
 
 var imageNumber1 = 0;
 var imageNumber2= 0;
@@ -29,19 +29,16 @@ function loadPage(){
         startGame();
     });
 
-    // $(document).keypress( function () {
-    //     console.log("You pressed the key!");
-    //     startGame();
-    // })
+
 }
 
 //Waits for the user to press the key.
-// function onKeyPress(event) {
-//     keyPressed = event.key;
-//     document.onkeyup = function(){
-//         console.log("You pressed the :" +keyPressed +" key.");
-//     }
-// }
+function onKeyPress(event) {
+    keyPressed = event.key;
+    document.onkeyup = function(){
+        startGame();
+    }
+}
 
 //Generate random number for the game number textfield
 function gameNumber(){
@@ -62,14 +59,23 @@ function calculateImageValues()
 
 //Start the game
 function startGame(){
-    console.log("The game has started!");
-    gameNumberTextfield = "";
+    //Rest all the variables
+
+    imageNumber1 = 0;
+    imageNumber2= 0;
+    imageNumber3 = 0;
+    imageNumber4 = 0;
+
+    imageClickArrayNumbers = []; //The value of the images are put in this array.
+    finalNumber = 0;
+    gameNumberTextfield = 0;
+
     imageClickArrayNumbers = [];
     $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
     $("#MessageArea").html("");
     gameNumber();
     $("#NumberArea").html(gameNumberTextfield);
-
+    $("#YourScoreIs").html("You score is: " +finalNumber);
 
     calculateImageValues();
     //Add event listener for each image.
@@ -108,75 +114,50 @@ function startGame(){
 function addNumbersInArray()
 {
 
-    function getSum(total, num) {
+    function getSumOfArray(total, num)
+    {
         return total + num;
     }
 
-    finalNumber = imageClickArrayNumbers.reduce(getSum);
-
+    finalNumber = imageClickArrayNumbers.reduce(getSumOfArray);
     console.log(finalNumber);
-
-    // for(var i = 0 ; i< imageClickArrayNumbers.length ; i++)
-    // {
-    //
-    // finalNumber =
-    // }
 
 }
 
 //Checks for the winner
 function checkForWinLoss()
 {
-    if(gameNumberTextfield == finalNumber){
+    if(finalNumber == gameNumberTextfield){
         //you win message!
         //reset game variables, arrays
         //Put a restart game button
+        wins++;
+
+        $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
+        $("#MessageArea").html("Congratulations! You win! Press any key to play again.");
+        //onKeyPress();
     }
     if(gameNumberTextfield > finalNumber){
 
         //keep playing
     }
-    if(gameNumberTextfield > finalNumber){
-        //You lose message!;
-        //reset game variables, arrays
-        //Put a restart game button
+    if( finalNumber > gameNumberTextfield){
+        losses++;
+        $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
+        $("#MessageArea").html("Ha, ha, you lose! Press any key to play again.");
+        $(document).keypress( function () {
+            console.log("You pressed the key!");
+            startGame();
+            //onKeyPress();
+        });
+
     }
 
 
 
 }
 
-
 $(document).ready(function () {
     loadPage();
 });
 
-//document.getElementById("StartArea").innerHTML = "<button type="button class="btn btn-primary">Click to Start
-// </button>"
-
-//3 - User clicks and the game starts
-//4 - The following things happen:
-        //a- The gameNumberTextfield is generated.
-        //b - Each image is given a value
-        //c - An eventListener is created to listen for the following:
-                //1- image_1 is clicked
-                //2- image_2 is clicked
-                //3- image_3 is clicked
-                //4- image_4 is clicked
-                //* All values of the clicked image are put in an array: imageClickedArray.
-
-        //d- When the image is clicked the a function is run to check the sum of the values in the array.
-                //1- If (imageClickArrayNumbers) == the gameNumberTextfield then they win.
-                        //a- End of game message appear saying "You win!"
-                        //b - win++1
-                        //c - numbersArray, imageClickArrayNumbers are reset.
-                        //d - button appears saying, "Play again"
-
-                //2 - If imageClickArrayNumbers < sum of gameNumberTextfield then they are allowed to keep clicking.
-
-
-                //3- If imageClickArrayNumbers > sum of gameNumberTextfield then they game is over.
-                        //a-Message appears saying your loses,
-                        //b- button (or message) appears saying click to play again.
-                                //1- Game starts over.
-                                        //a - All variables are reset.
