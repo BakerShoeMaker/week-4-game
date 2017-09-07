@@ -1,0 +1,24 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:31e9e7712254f9104dfd94526759477c:96b56eb2650363e69ae50b3f1896f656:d491bf5c3b7eed45413231f07162f08a$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(jellyYellow.png);}
+
+.jellyYellow0001 {width:124px; height:108px; background-position: -1px -1px}
+.jellyYellow0002 {width:124px; height:108px; background-position: -127px -1px}
+.jellyYellow0003 {width:124px; height:108px; background-position: -253px -1px}
+.jellyYellow0004 {width:124px; height:108px; background-position: -379px -1px}
+.jellyYellow0005 {width:124px; height:108px; background-position: -505px -1px}
+.jellyYellow0006 {width:124px; height:108px; background-position: -631px -1px}
+.jellyYellow0007 {width:124px; height:108px; background-position: -757px -1px}
+.jellyYellow0008 {width:124px; height:108px; background-position: -883px -1px}
+.jellyYellow0009 {width:124px; height:108px; background-position: -1009px -1px}
+.jellyYellow0010 {width:124px; height:108px; background-position: -1135px -1px}

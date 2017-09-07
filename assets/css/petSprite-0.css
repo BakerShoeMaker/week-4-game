@@ -1,0 +1,32 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:975ee7efadec02b812ccf134bfa5f2cc:98a728117fe54895599e53e1d975d972:fd306cb0ee732d133a826673d7913c80$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+@keyframes play {
+    100% { background-position: -1616px; }
+}
+
+
+.sprite {
+    display:inline-block;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-image:url(petSprite-0.png);
+    animation: play 3s steps(8) infinite;
+}
+
+.dogRun_1 {width:547px; height:481px; background-position: -1px -1px}
+.dogRun_2 {width:547px; height:481px; background-position: -1px -484px}
+.dogRun_3 {width:547px; height:481px; background-position: -1px -967px}
+.dogRun_4 {width:547px; height:481px; background-position: -1px -1450px}
+.dogRun_5 {width:547px; height:481px; background-position: -550px -1px}
+.dogRun_6 {width:547px; height:481px; background-position: -550px -484px}
+.dogRun_7 {width:547px; height:481px; background-position: -550px -967px}
+.dogRun_8 {width:547px; height:481px; background-position: -550px -1450px}

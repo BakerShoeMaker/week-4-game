@@ -75,7 +75,7 @@ function startGame(){
     $("#MessageArea").html("");
     gameNumber();
     $("#NumberArea").html(gameNumberTextfield);
-    $("#YourScoreIs").html("You score is: " +finalNumber);
+    $("#YourScoreIs").html("Your score is: " +finalNumber);
 
     calculateImageValues();
     //Add event listener for each image.
@@ -128,27 +128,36 @@ function addNumbersInArray()
 function checkForWinLoss()
 {
     if(finalNumber == gameNumberTextfield){
-        //you win message!
-        //reset game variables, arrays
-        //Put a restart game button
+        //Make the image clicks inactive
+        $("#image_1").click(false);
+        $("#image_2").click(false);
+        $("#image_3").click(false);
+        $("#image_4").click(false);
+
         wins++;
 
         $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
-        $("#MessageArea").html("Congratulations! You win! Press any key to play again.");
-        //onKeyPress();
+        $("#MessageArea").html("<i class= 'fa fa-thumbs-o-up' aria-hidden='true'></i>" + " Congratulations! You win! Press any key to play again.");
+        $(document).keypress( function () {
+            startGame();
+            //onKeyPress();
+        });
     }
     if(gameNumberTextfield > finalNumber){
 
         //keep playing
     }
     if( finalNumber > gameNumberTextfield){
+        //Make the image clicks inactive
+        $("#image_1").click(false);
+        $("#image_2").click(false);
+        $("#image_3").click(false);
+        $("#image_4").click(false);
         losses++;
         $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
-        $("#MessageArea").html("Ha, ha, you lose! Press any key to play again.");
+        $("#MessageArea").html("<i class= 'fa fa-thumbs-o-down' aria-hidden='true'></i>" +" You lost. Press any key to play again.");
         $(document).keypress( function () {
-            console.log("You pressed the key!");
             startGame();
-            //onKeyPress();
         });
 
     }
