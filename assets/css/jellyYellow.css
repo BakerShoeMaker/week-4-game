@@ -23,6 +23,7 @@
     width: 130px;
     height: 110px;
     animation: play 1s steps(8) infinite;
+    animation-iteration-count: 2;
 
 }
 
