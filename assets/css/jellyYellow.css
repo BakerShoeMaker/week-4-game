@@ -10,7 +10,7 @@
 
 */
 @keyframes play {
-    100% { background-position: -127px; }
+    100% { background-position: -1260px; }
 }
 
 
@@ -20,20 +20,31 @@
     overflow:hidden;
     background-repeat: no-repeat;
     background-image:url(jellyYellow.png);
-    width: 130px;
-    height: 110px;
-    animation: play 1s steps(8) infinite;
-    animation-iteration-count: 2;
+    width: 126px;
+    height: 108px;
+    animation: play .5s steps(10) infinite;
+    /*animation-iteration-count: 2;*/
 
 }
 
-.jellyYellow0001 {width:124px; height:108px; background-position: -1px -1px}
-.jellyYellow0002 {width:124px; height:108px; background-position: -127px -1px}
-.jellyYellow0003 {width:124px; height:108px; background-position: -253px -1px}
-.jellyYellow0004 {width:124px; height:108px; background-position: -379px -1px}
-.jellyYellow0005 {width:124px; height:108px; background-position: -505px -1px}
-.jellyYellow0006 {width:124px; height:108px; background-position: -631px -1px}
-.jellyYellow0007 {width:124px; height:108px; background-position: -757px -1px}
-.jellyYellow0008 {width:124px; height:108px; background-position: -883px -1px}
-.jellyYellow0009 {width:124px; height:108px; background-position: -1009px -1px}
-.jellyYellow0010 {width:124px; height:108px; background-position: -1135px -1px}
+/*.jellyYellow0001 { background-position: 0px -1px}*/
+/*.jellyYellow0002 { background-position: -125px -1px}*/
+/*.jellyYellow0003 { background-position: -250px -1px}*/
+/*.jellyYellow0004 {background-position: -375px -1px}*/
+/*.jellyYellow0005 { background-position: -504px -1px}*/
+/*.jellyYellow0006 { background-position: -630px -1px}*/
+/*.jellyYellow0007 { background-position: -756px -1px}*/
+/*.jellyYellow0008 { background-position: -882px -1px}*/
+/*.jellyYellow0009 { background-position: -1008px -1px}*/
+/*.jellyYellow0010 {background-position: -1134px -1px}*/
+
+/*.jellyYellow0001 {width:124px; height:108px; background-position: -1px -1px}*/
+/*.jellyYellow0002 {width:124px; height:108px; background-position: -127px -1px}*/
+/*.jellyYellow0003 {width:124px; height:108px; background-position: -253px -1px}*/
+/*.jellyYellow0004 {width:124px; height:108px; background-position: -379px -1px}*/
+/*.jellyYellow0005 {width:124px; height:108px; background-position: -505px -1px}*/
+/*.jellyYellow0006 {width:124px; height:108px; background-position: -631px -1px}*/
+/*.jellyYellow0007 {width:124px; height:108px; background-position: -757px -1px}*/
+/*.jellyYellow0008 {width:124px; height:108px; background-position: -883px -1px}*/
+/*.jellyYellow0009 {width:124px; height:108px; background-position: -1009px -1px}*/
+/*.jellyYellow0010 {width:124px; height:108px; background-position: -1135px -1px}*/
