@@ -15,6 +15,9 @@ var finalNumber = 0;
 
 var message = "";
 
+var popSound = new Audio('assets/sounds/popIn.mp3');
+var soundWin = new Audio('assets/sounds/correct.mp3');
+var soundLose = new Audio('assets/sounds/horn_wrong.mp3')
 //2 - First scene: user sees button that says click to star game.
 //loadPage
 function loadPage(){
@@ -60,7 +63,7 @@ function calculateImageValues()
 //Start the game
 function startGame(){
     //Rest all the variables
-
+    playButtonClickSound();
     imageNumber1 = 0;
     imageNumber2= 0;
     imageNumber3 = 0;
@@ -129,15 +132,15 @@ function checkForWinLoss()
 {
     if(finalNumber == gameNumberTextfield){
         //Make the image clicks inactive
-        $("#image_1").click(false);
-        $("#image_2").click(false);
-        $("#image_3").click(false);
-        $("#image_4").click(false);
-
+        $("#image_1").off();
+        $("#image_2").off();
+        $("#image_3").off();
+        $("#image_4").off();
+        soundWin.play();
         wins++;
 
         $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
-        $("#MessageArea").html("<i class= 'fa fa-thumbs-o-up' aria-hidden='true'></i>" + " Congratulations! You win! Press any key to play again.");
+        $("#MessageArea").html("<i class= 'fa fa-thumbs-o-up messageTextWin' aria-hidden='true'></i>" + "  Congratulations! You win! Press any key to play again.");
         $(document).keypress( function () {
             startGame();
             //onKeyPress();
@@ -149,22 +152,31 @@ function checkForWinLoss()
     }
     if( finalNumber > gameNumberTextfield){
         //Make the image clicks inactive
-        $("#image_1").click(false);
-        $("#image_2").click(false);
-        $("#image_3").click(false);
-        $("#image_4").click(false);
+        $("#image_1").off();
+        $("#image_2").off();
+        $("#image_3").off();
+        $("#image_4").off();
+        soundLose.play();
         losses++;
         $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
-        $("#MessageArea").html("<i class= 'fa fa-thumbs-o-down' aria-hidden='true'></i>" +" You lost. Press any key to play again.");
+        $("#MessageArea").html("<i class= 'fa fa-thumbs-o-down messageTextLose' aria-hidden='true'></i>" +"  You lost. Press any key to play again.");
         $(document).keypress( function () {
             startGame();
         });
 
     }
 
+}
 
+//play sounds
+function playButtonClickSound(){
+    $("img").click(function(){
+        popSound.play();
+
+    });
 
 }
+
 
 $(document).ready(function () {
     loadPage();
