@@ -76,11 +76,14 @@ function startGame(){
     imageClickArrayNumbers = [];
     $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
     $("#MessageArea").html("");
-    gameNumber();
+
     $("#NumberArea").html(gameNumberTextfield);
     $("#YourScoreIs").html("Your score is: " +finalNumber);
 
+    //Calculate initial values.
+    gameNumber();
     calculateImageValues();
+
     //Add event listener for each image.
     $("#image_1").click( function(){
         imageClickArrayNumbers.push(imageNumber1);
@@ -130,6 +133,7 @@ function addNumbersInArray()
 //Checks for the winner
 function checkForWinLoss()
 {
+    //User wins
     if(finalNumber == gameNumberTextfield){
         //Make the image clicks inactive
         $("#image_1").off();
@@ -146,10 +150,9 @@ function checkForWinLoss()
             //onKeyPress();
         });
     }
-    if(gameNumberTextfield > finalNumber){
 
-        //keep playing
-    }
+
+    //User loses
     if( finalNumber > gameNumberTextfield){
         //Make the image clicks inactive
         $("#image_1").off();
@@ -182,3 +185,11 @@ $(document).ready(function () {
     loadPage();
 });
 
+
+function canvasSample()
+{
+
+
+
+
+}
