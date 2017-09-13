@@ -17,7 +17,7 @@ var message = "";
 
 var popSound = new Audio('assets/sounds/popIn.mp3');
 var soundWin = new Audio('assets/sounds/correct.mp3');
-var soundLose = new Audio('assets/sounds/horn_wrong.mp3')
+var soundLose = new Audio('assets/sounds/horn_wrong.mp3');
 //2 - First scene: user sees button that says click to star game.
 //loadPage
 function loadPage(){
@@ -72,7 +72,7 @@ function startGame(){
     imageClickArrayNumbers = []; //The value of the images are put in this array.
     finalNumber = 0;
     gameNumberTextfield = 0;
-
+    gameNumber();
     imageClickArrayNumbers = [];
     $("#WinsLoses").html("Wins: " +wins +"   |   " +"Losses: " + losses);
     $("#MessageArea").html("");
@@ -81,7 +81,7 @@ function startGame(){
     $("#YourScoreIs").html("Your score is: " +finalNumber);
 
     //Calculate initial values.
-    gameNumber();
+
     calculateImageValues();
 
     //Add event listener for each image.

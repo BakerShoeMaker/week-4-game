@@ -2,7 +2,8 @@ body{
 
     /*background-image: url("../images/spacebackground.jpg");*/
     background-size: cover;
-    background-color: #612fcd;
+    background-color: #efd4ff;
+    /*background-color: #612fcd;*/
 
 }
 
@@ -10,25 +11,25 @@ body{
 
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 70px;
-    color: white;
+    color: #9119ff;
     text-align: center;
 }
 
 .gameText{
     font-family: 'Anton', sans-serif;
-    color: white;
+    color: #9119ff;
     font-size: 35px;
 }
 
 .winLossesText{
     font-family: 'Anton', sans-serif;
-    color: white;
+    color: #9119ff;
     font-size: 25px;
 }
 
 .messageText{
     font-family: 'Anton', sans-serif;
-    color: white;
+    color: #9119ff;
     font-size: 30px;
 }
 
@@ -36,7 +37,7 @@ body{
 
     font-family: 'Anton', sans-serif;
     font-size: 100px;
-    color: white;
+    color: #9119ff;
 }
 .imageSize{
     width: 100px;
@@ -47,7 +48,7 @@ body{
 }
 
 .buttonProperties{
-    background-color: orange;
+    background-color: #9119ff;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -73,7 +74,7 @@ img:hover{
 
 }
 .messageTextWin{
-    color: greenyellow;
+    color: #006400;
 }
 
 .messageTextLose{
